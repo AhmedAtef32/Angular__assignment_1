@@ -7,6 +7,7 @@
     </div>
 
     <div class="contact-form mt-5">
+    <form>
       <div class="row">
         <div class="col-md-7 mx-auto mt-5 position-relative">
           <input type="text" id="userName" class="form-control position-relative z-3 border-0 border-bottom" placeholder="userName" (input)="emptyInput($event)">
@@ -28,9 +29,10 @@
           <label class="position-absolute translate-middle-y text-success text-lable" for="userPassword">UserPassword:</label>
         </div>
         <div class="col-md-7 mx-auto mt-4">
-            <button class="btn send-massage">Send Message</button>
+            <button type="button" class="btn send-massage">Send Message</button>
         </div>
       </div>
+    </form>
     </div>
 
   </div>
