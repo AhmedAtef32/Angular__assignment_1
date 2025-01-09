@@ -11,6 +11,6 @@ export const routes: Routes = [
   {path:"about",component:AboutComponent,title:"About page"},
   {path:"portifolio",component:PortifolioComponent,title:"Portifolio page"},
   {path:"contact",component:ContactComponent,title:"contact page"},
+  {path:"**",redirectTo:"not-found",pathMatch:"full"},
   {path:"not-found'",component:NotFoundComponent,title:"Not Found"},
-  {path:"**",redirectTo:"home",pathMatch:"full"},
 ];
