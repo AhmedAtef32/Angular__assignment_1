@@ -1,0 +1,37 @@
+<section class="contact pb-5">
+  <div class="container">
+
+    <div class="contact-header mt-5  text-center">
+      <h1 class="main_color text-uppercase">conatct section</h1>
+      <app-star-main-color></app-star-main-color>
+    </div>
+
+    <div class="contact-form mt-5">
+      <div class="row">
+        <div class="col-md-7 mx-auto mt-5 position-relative">
+          <input type="text" id="userName" class="form-control position-relative z-3 border-0 border-bottom" placeholder="userName" (input)="emptyInput($event)">
+          <label class="position-absolute translate-middle-y text-success text-lable" for="userName">userName:</label>
+        </div>
+
+        <div class="col-md-7 mx-auto mt-5 position-relative">
+          <input type="number" id="userAge" class="form-control position-relative z-3 border-0 border-bottom" placeholder="userAge" (input)="emptyInput($event)">
+          <label class="position-absolute translate-middle-y text-success text-lable " for="userAge">UserAge:</label>
+        </div>
+
+        <div class="col-md-7 mx-auto mt-5 position-relative">
+          <input type="email" id="userEmail" class="form-control position-relative z-3 border-0 border-bottom" placeholder="userEmail" (input)="emptyInput($event)">
+          <label class="position-absolute translate-middle-y text-success text-lable" for="userEmail">UserEmail:</label>
+        </div>
+
+        <div class="col-md-7 mx-auto mt-5 position-relative">
+          <input type="password" id="userPassword" class="form-control position-relative z-3 border-0 border-bottom" placeholder="userPassword" (input)="emptyInput($event)">
+          <label class="position-absolute translate-middle-y text-success text-lable" for="userPassword">UserPassword:</label>
+        </div>
+        <div class="col-md-7 mx-auto mt-4">
+            <button class="btn send-massage">Send Message</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,36 @@
+footer{
+  background-color: #2C3E50;
+
+}
+.footer-info {
+  h3{
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  h4,h5{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+}
+.icon-footer{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+color: white;
+font-size: 16px;
+border: 1px solid white;
+padding-top: 9px;
+}
+
+.end-footer{
+  background-color: #1A252F;
+ h6{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  word-spacing: 1px;
+  color: #f0f8ff;
+ }
+}

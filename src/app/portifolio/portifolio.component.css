@@ -1,0 +1,27 @@
+.portofolio{
+  min-height: 100vh;
+
+}
+.portofolio-header{
+  padding-top: 80px;
+}
+.bg-icon {
+  inset: 0;
+  background-color: #1abc9ce6;
+  opacity: 0;
+  transition: 0.5s ease opacity;
+  i{
+    font-size: 6rem ;
+  }
+
+}
+.card-portofolio:hover .bg-icon{
+  opacity: 1;
+  cursor: pointer;
+}
+.show-img{
+  position: fixed;
+  z-index: 555555;
+  background-color: rgba(13, 110, 253, 0.25);
+  inset: 0;
+}

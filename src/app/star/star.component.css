@@ -1,0 +1,20 @@
+.star-home::before
+{
+  content: "";
+position: absolute;
+width: 200px;
+left: 50%;
+height: 18%;
+top: 60%;
+transform: translate(-50%, -50%);
+background-color: white;
+}
+
+
+.star-home i{
+  color: white;
+  background-color: #1ABC9C;
+  position: relative;
+  z-index: 5;
+
+}

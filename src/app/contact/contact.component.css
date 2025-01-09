@@ -1,0 +1,23 @@
+.contact{
+  min-height: 100vh;
+
+}
+.contact-header{
+  padding-top: 80px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+.text-lable{
+  color:#1abc9c;
+  transition: 0.5s ease top;
+  top: 60%;
+}
+.animate-top{
+  top: -70%;
+}
+.send-massage{
+  background-color:#1abc9c ;
+  color: white;
+}
