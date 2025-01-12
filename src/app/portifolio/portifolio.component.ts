@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { StarComponent } from "../star/star.component";
 import { StarMainColorComponent } from "../star-main-color/star-main-color.component";
+import { ImgsSrc } from '../imgs-src';
 
 type snd = string | null | undefined;
 @Component({
@@ -20,4 +21,29 @@ export class PortifolioComponent {
   removeImgSrc(){
     this.imgSrc = "";
   }
+
+  imgsrcs : Array<ImgsSrc> = [
+    {src:"imges/poert1.png",
+      alt:"poert1"
+    },
+    {src:"imges/port2.png",
+      alt:"port2"
+    },
+    {src:"imges/port3.png",
+      alt:"port1"
+    },
+    {src:"imges/poert1.png",
+      alt:"poert1"
+    },
+    {src:"imges/port2.png",
+      alt:"port2"
+    },
+    {src:"imges/port3.png",
+      alt:"port1"
+    }
+  ]
+
+
+
+
 }

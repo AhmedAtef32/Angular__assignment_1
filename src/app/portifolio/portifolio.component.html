@@ -6,64 +6,19 @@
     </div>
 
     <div class="row g-4">
+    @for ( imgSrc of imgsrcs; track $index) {
       <div class="col-md-6 col-lg-4">
         <div class="card-portofolio position-relative " (click)="getImgSrc($event)"  >
-          <img class="img-fluid rounded-2"  src="imges/poert1.png"  alt="poert1" >
+          <img class="img-fluid rounded-2"   [src]="imgSrc.src"  [alt]="imgSrc.alt" >
           <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
             <i class="fas fa-plus text-white"></i>
           </div>
         </div>
       </div>
+    }
 
 
-      <div class="col-md-6 col-lg-4">
-        <div class="card-portofolio position-relative " (click)="getImgSrc($event)"  >
-          <img class="img-fluid rounded-2"  src="imges/port2.png"  alt="poert2">
-          <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
-            <i class="fas fa-plus text-white"></i>
-          </div>
-        </div>
-      </div>
 
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-portofolio position-relative " (click)="getImgSrc($event)"  >
-          <img class="img-fluid rounded-2"  src="imges/port3.png"  alt="port3">
-           <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
-            <i class="fas fa-plus text-white"></i>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-portofolio position-relative " (click)="getImgSrc($event)"  >
-          <img class="img-fluid rounded-2"  src="imges/poert1.png"  alt="poert1" >
-          <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
-            <i class="fas fa-plus text-white"></i>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-portofolio position-relative " (click)="getImgSrc($event)"  >
-          <img class="img-fluid rounded-2"  src="imges/port2.png"  alt="poert2">
-          <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
-            <i class="fas fa-plus text-white"></i>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-6 col-lg-4">
-        <div class="card-portofolio position-relative " (click)="getImgSrc($event)" >
-          <img class="img-fluid rounded-2"  src="imges/port3.png"  alt="port3">
-           <div class="bg-icon position-absolute h-100 d-flex justify-content-center align-items-center">
-            <i class="fas fa-plus text-white"></i>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
