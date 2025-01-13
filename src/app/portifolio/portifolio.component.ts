@@ -43,6 +43,9 @@ export class PortifolioComponent {
     }
   ]
 
+  stopCloseImg(eventInfo:MouseEvent){
+    eventInfo.stopPropagation();
+  }
 
 
 

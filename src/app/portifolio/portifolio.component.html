@@ -29,7 +29,7 @@
     'd-block': imgSrc !== ''
   }" (click)="removeImgSrc()">
     <div class="container">
-      <div class="col-sm-9 col-md-6 col-lg-5 mx-auto">
+      <div class="col-sm-9 col-md-6 col-lg-5 mx-auto" (click)="stopCloseImg($event)">
         <img class="img-fluid" [src]="imgSrc" alt="">
       </div>
     </div>
