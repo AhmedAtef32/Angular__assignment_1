@@ -23,15 +23,16 @@
     </div>
   </div>
 
-
-  <div class="show-img vh-100 d-flex justify-content-center align-items-center" [class]="{
-    'd-none': imgSrc === '',
-    'd-block': imgSrc !== ''
-  }" (click)="removeImgSrc()">
+@if(imgSrc !== ''){
+  <div class="show-img vh-100 d-flex justify-content-center align-items-center"  (click)="removeImgSrc()">
     <div class="container">
       <div class="col-sm-9 col-md-6 col-lg-5 mx-auto" (click)="stopCloseImg($event)">
         <img class="img-fluid" [src]="imgSrc" alt="">
       </div>
     </div>
   </div>
+}
+
+
+
 </section>
